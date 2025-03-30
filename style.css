@@ -6,7 +6,7 @@ body {
 }
 h1 {
     font-family: 'Impact', fantasy;
-    font-weight: 800;
+    font-weight: 750;
     font-size: 8rem;
     font-style: normal 8deg;
     margin-block-start: 1.33em;
@@ -48,3 +48,16 @@ p {
     margin-inline-end: 0px;
     color: #0f0f00;
 }
+
+a:link {
+color: #f7f77c;
+text-decoration: none;
+}
+a:visited {
+  color: #dbdb04;
+  text-decoration: none;
+}
+a:hover, a:active{
+  text-decoration: underline;
+}
+
