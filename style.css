@@ -9,19 +9,21 @@ h1 {
     font-weight: 750;
     font-size: 8rem;
     font-style: normal 8deg;
-    margin-block-start: 0.33em;
-    margin-block-end: 0.33em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: #fcfc03;
+    text-align: center;
+  	border: 3px solid #fcfc03;
 }
 h2 {
     font-family: 'Palatino, URW Palladio L', serif;
     font-weight: 600;
     font-size: 3rem;
     font-style: normal 8deg;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: #f5f540;
@@ -31,10 +33,11 @@ h3 {
     font-weight: 600;
     font-size: 2rem;
     font-style: normal 8deg;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    padding-left: 26px;
     color: #fcfc81;
 }
 p {
@@ -42,10 +45,11 @@ p {
     font-weight: 600;
     font-size: 1rem;
     font-style: normal 8deg;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    text-align: justify;
     color: #0f0f00;
 }
 
@@ -59,5 +63,5 @@ a:visited {
 }
 a:hover, a:active{
   text-decoration: underline;
-}
+  }
 
