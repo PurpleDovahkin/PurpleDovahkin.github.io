@@ -9,10 +9,7 @@ h1 {
     font-weight: 750;
     font-size: 8rem;
     font-style: normal 8deg;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    
     color: #fcfc03;
 }
 h2 {
