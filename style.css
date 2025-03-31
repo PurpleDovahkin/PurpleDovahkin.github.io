@@ -63,4 +63,8 @@ a:visited {
 a:hover, a:active{
     text-decoration: underline;
 }
+img {
+	display: block;
+    margin:auto;
+}
 
