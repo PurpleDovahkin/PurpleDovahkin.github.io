@@ -54,30 +54,18 @@ p {
     color: #0f0f00;
 }
 
-a:link {
+a.siteLink:link {
     color: #f7f77c;
     text-decoration: none;
 }
-a:visited {
+a.siteLink:visited {
     color: #dbdb04;
     text-decoration: none;
 }
-a:hover, a:active{
+a.siteLink:hover, a.siteLink:active{
     text-decoration: underline;
 }
 img {
     display: block;
     margin:auto;
-}
-a.cite:link {
-    font-weight: bold;
-    color: #0000EE;
-}
-a.cite:visited {
-    font-weight: bold;
-    color: #551A8B;;
-}
-a.cite:hover, a.cite:active{
-    font-weight: bold;
-    color: #FF0000;
 }
