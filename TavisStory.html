@@ -8,13 +8,15 @@
 * {
   box-sizing: border-box;
 }
-.collage {
-  box-sizing: border-box;
+
+.column {
   float: left;
   padding: 10px;
-  width: 200px;
+  width: 125px;
 }
-.collage::after {
+
+/* Clearfix (clear floats) */
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -29,7 +31,8 @@
 	<body>
 		<h1>Tavi's Story</h1>
 		<h4><a class="siteLink" href="https://purpledovahkin.github.io/">Return to Homepage</a><br></h4>
-		<div class="collage">
+		<div class="row">
+		<div class="column">
 			<img src="images/G hearts.JPG" alt="Graciella Tavi Sawyer Smiling">
 			<img src="images/G unicorn.jpg" alt="Graciella Tavi Sawyer Dressed as a Unicorn">
 			<img src="images/G neverforgotten.JPG" alt="Graciella Tavi Sawyer Smiling">
@@ -39,6 +42,7 @@
 			<img src="images/JR and G Chitty Chitty Bang Bang Cast Party.JPG" alt="Graciella Tavi Sawyer and me at Chitty Chitty bang Bang">
 			<img src="images/JR and G hug.jpg" alt="Graciella Tavi and me">
 			<img src="images/JR M and G with halloween boat.PNG" alt="Graciella Tavi Sawyer and siblings">
+		</div>
 		</div>
 		<h3><br>Tavi's Story</h3>
 		<p>
