@@ -53,14 +53,14 @@ p {
 }
 
 a:link {
-color: #f7f77c;
-text-decoration: none;
+    color: #f7f77c;
+    text-decoration: none;
 }
 a:visited {
-  color: #dbdb04;
-  text-decoration: none;
+    color: #dbdb04;
+    text-decoration: none;
 }
 a:hover, a:active{
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
