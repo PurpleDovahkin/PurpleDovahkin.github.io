@@ -66,7 +66,18 @@ a:hover, a:active{
     text-decoration: underline;
 }
 img {
-	display: block;
+    display: block;
     margin:auto;
 }
-
+a.cite:link {
+    font-weight: bold;
+    color: #0000EE;
+}
+a.cite:visited {
+    font-weight: bold;
+    color: #551A8B;;
+}
+a.cite:hover, a.cite:active{
+    font-weight: bold;
+    color: #FF0000;
+}
